@@ -1,5 +1,6 @@
 library(ggplot2)
 library(dplyr)
+
 setwd("C:/Users/au634287/OneDrive - Aarhus universitet/PhD/Rstudio/Data")
 miRBase <- read.table(file="high_confidence_miRBase21-master.tsv", header = TRUE, fill = TRUE, sep =  " ")
 #To delete noise and take only sequences that have been checked as a microRNAs there is a colum of high fidelity. There has to be true 
