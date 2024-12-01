@@ -61,13 +61,7 @@ wLENs <- merge(wLENs,WT_wL_SD,by="MIRNA")
 rm(WT_wL,WT_CPM,WT_wL_SD)
 
 # Define the mutations in a single vector
-MUT_selects <- c("E1705K", "D1709N", "E1813K", "E1813G", "E1813Q", "E1813D", 
-                 "D1709G", "G1809R", "G1809E", "G1809V", "D1810Y", "D1810N","D1810V", 
-                 "S1344L", "G1708E", "G1708R", "R1736W", "N1742S", "K1806E", 
-                 "D1713Y", "Q1702H", "S1747L", "E1800K", "P1805S", "D1822V", 
-                 "K1030E", "L1583R", "V1740A", "P437A", "Q1148E", "R1599W", 
-                 "R1342C", "D1713G", "R1851L", "N1120H", "Q1702E", "E1667D","E1667K",  
-                 "H1719Y", "E1778Q", "A1710S", "R1736L", "R1342H","I773M","I582T")
+
 
 # Predefine breaks for the cumulative plot
 breaks <- seq(-10, 10, by = 0.01)
